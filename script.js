@@ -52,22 +52,22 @@ function variableAssigner () {
     }
     }
 
-    function inputMoney () {
-        let currentBalance = 0;
-        let initialAmountInput = parseInt(prompt('Enter desired cash amount'));
+
+let balance = 0;
+function inputMoney () {
+        amountInput = +(prompt('Enter desired cash amount'));
         //if statement for non-numerical value to be added
         // console.log(typeof amountInput)
-    //     for (let i = 0; i < initialAmountInput; i++) {
-    //    let additionalAmountInput = parseInt(prompt('Enter desired cash amount'))
-    //    currentBalance += additionalAmountInput; 
-    //    remainingBalance.innerText = currentBalance
+        // console.log (amountInput);
+       balance += amountInput
+        remainingBalance.innerText = balance
     } 
 
-    function determineStakeAmount () {
+function determineStakeAmount () {
         let amountStaked = stakeAmount.value
          stakeOutput.innerText = amountStaked;
     }
 
-    function isAWinner (){
+function isAWinner (){
 
     }
