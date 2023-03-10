@@ -12,23 +12,23 @@
         <div id="reel-container">
             <div class="reel">
                 <div class="reel-value"></div>
-                <div class="reel-value winning-reel"></div>
+                <div class="reel-value"></div>
                 <div class="reel-value"></div>
             </div>
             <div class="reel">
                 <div class="reel-value"></div>
-                <div class="reel-value winning-reel"></div>
+                <div class="reel-value"></div>
                 <div class="reel-value"></div>
             </div>
             <div class="reel">
                 <div class="reel-value"></div>
-                <div class="reel-value winning-reel"></div>
+                <div class="reel-value"></div>
                 <div class="reel-value"></div>
             </div>
         </div>
         <div id="info-container">
             <div class="info">
-                <input id="stake-amount" type="text" placeholder="Enter stake amount"> <button id="stake-input-button">Stake</button>
+                <input id="stake-amount" type="number" min="1" placeholder="Enter stake amount"> <button id="stake-input-button">Stake</button>
                     <div>
                         You are staking:
                         <div id="staking-amount-output">$</div>
@@ -37,15 +37,11 @@
             <div class="info round-output">Round Output</div>
             <div class="info">Balance: <span class="remaining-balance">$</span></div>
         </div>
-        
     </div>
 
     <div id="buttons">
-        <button id="money-input">Money input</button>
-            <div id="moneybot-container">
-                <img id="moneybot-img" src="./Project_1_sources/casino-chips.png" alt="">
-            </div>
-        <button id="machine-arm">Machine arm</button>
+        <button id="pay-slot">Pay Slot</button>
+        <button id="machine-arm"></button>
     </div>
 
     <script src="./script.js"></script>

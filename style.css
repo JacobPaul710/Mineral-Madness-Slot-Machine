@@ -1,5 +1,5 @@
 body {
-    background-image: url("Project_1_sources/slot-machine-background2.jpg");
+    background-image: url("./Project_1_sources/slot-machine-background.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,7 +12,7 @@ body {
 }
 
 #board {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -21,7 +21,7 @@ body {
 }
 
 #buttons {
-    background-color: black;
+    /* background-image: url('./Project_1_sources/falling\ money.gif'); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body {
 #reel-container {
     height: 100%;
     width: 100%;
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -42,8 +42,10 @@ body {
 .reel {
     width: 25%;
     height: 75%;
-    background-color: green;
-    border: 1px black solid;
+    border: 5px goldenrod solid;
+    border-radius: 12px;
+    /* background-color: green; */
+    /* border: 1px black solid; */
     display: flex;
     padding: 10px;
     flex-direction: column;
@@ -55,15 +57,44 @@ body {
 .reel-value{
     height: 50%;
     width: 50%;
-    background-color: black;
-    color: white;
-    border: 1px white solid;
+    /* border: 5px goldenrod solid;
+    border-radius: 12px; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
-    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+
 }
+
+ /* @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  } */
+  
 
 #info-container {
     display: flex;
@@ -71,15 +102,16 @@ body {
     background-color: green;
     height: 200px;
     padding: 1%;
-
-    
+    display: flex;
+    justify-content: center;
 }
 
 .info {
     width: 100%;
     height: 100%;
     background-color: grey;
-    border: 1px black solid;
+    border: goldenrod solid 2px;
+    border-radius: 12px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -88,25 +120,28 @@ body {
 
 }
 
-#money-input {
-    height: 20%;
-    background-color: green;
+#pay-slot {
+    height: 18%;
+    background-image: url('./Project_1_sources/payslotblack2.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: goldenrod solid 2px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    line-height: 75px;
 }
 
-#moneybot-container {
-   position: relative;
-  }
-
-  #moneybot-img {
-   width: 100%;
-   height: 100%;
-   
-  
-  }
-
 #machine-arm {
+    background-image: url('./Project_1_sources/slot-machine-arm-static.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 50%;
-    background-color: red;
+    background-color: #1a1a1a ;
+    border: none;
     
 }
 
