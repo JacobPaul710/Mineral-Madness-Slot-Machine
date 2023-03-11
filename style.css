@@ -1,188 +1,153 @@
 body {
-    background-image: url("./Project_1_sources/slot-machine-background.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
-    background-color: #1a1a1a;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-   
+  background-image: url("./Project_1_sources/slot-machine-background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  background-color: #1a1a1a;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
 }
 
 #board {
-    /* background-color: red; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #buttons {
-    /* background-image: url('./Project_1_sources/falling\ money.gif'); */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+  /* background-image: url('./Project_1_sources/falling\ money.gif'); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #reel-container {
-    height: 100%;
-    width: 100%;
-    /* background-color: goldenrod; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
-    padding-top: 10%;
+  height: 100%;
+  width: 100%;
+  /* background-color: goldenrod; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 10%;
 }
 
 .reel {
-    width: 25%;
-    height: 75%;
-    border: 5px goldenrod solid;
-    border-radius: 12px;
-    /* background-color: green; */
-    /* border: 1px black solid; */
-    display: flex;
-    padding: 10px;
-    flex-direction: column;
-    padding: 2%;
-    align-items: center;
-
+  width: 25%;
+  height: 75%;
+  border: 5px goldenrod solid;
+  border-radius: 12px;
+  /* background-color: green; */
+  /* border: 1px black solid; */
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  padding: 2%;
+  align-items: center;
 }
 
-.reel-value{
-    height: 50%;
-    width: 50%;
-    /* border: 5px goldenrod solid;
-    border-radius: 12px; */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
-
+.reel-value {
+  height: 50%;
+  width: 50%;
+  /* border: 5px goldenrod solid; */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
- /* @-webkit-keyframes slide-in-bottom {
-    0% {
-      -webkit-transform: translateY(1000px);
-              transform: translateY(1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-bottom {
-    0% {
-      -webkit-transform: translateY(1000px);
-              transform: translateY(1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
-    }
-  } */
-  
 
 #info-container {
-    display: flex;
-    width: 100%;
-    background-color: green;
-    height: 200px;
-    padding: 1%;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  /* background-color: green; */
+  height: 200px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .info {
-    width: 100%;
-    height: 100%;
-    background-color: grey;
-    border: goldenrod solid 2px;
-    border-radius: 12px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  border: goldenrod solid 2px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #pay-slot {
-    height: 18%;
-    background-image: url('./Project_1_sources/payslotblack2.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: goldenrod solid 2px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; 
-    line-height: 75px;
+  height: 18%;
+  background-image: url("./Project_1_sources/payslotblack2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: goldenrod solid 2px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  line-height: 75px;
 }
 
 #machine-arm {
-    background-image: url('./Project_1_sources/slot-machine-arm-static.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 50%;
-    background-color: #1a1a1a ;
-    border: none;
-    
+  background-image: url("./Project_1_sources/slot-machine-arm-static.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50%;
+  background-color: #1a1a1a;
+  border: none;
 }
 
-
-@media(min-width: 320px) {
-    #buttons {
-        width: 100px;
-    }
-    #info-container {
-        height: 100px;
-    }
+@media (min-width: 320px) {
+  #buttons {
+    width: 100px;
+  }
+  #info-container {
+    height: 100px;
+  }
 }
-@media(min-width: 480px) { 
-    #buttons {
-        width: 120px;
-    }
-    #info-container {
-        height: 120px;
-    }
+@media (min-width: 480px) {
+  #buttons {
+    width: 120px;
+  }
+  #info-container {
+    height: 120px;
+  }
 }
-@media(min-width: 768px) { 
-    #buttons {
-        width: 140px;
-    }
-    #info-container {
-        height: 140px;
-    }
+@media (min-width: 768px) {
+  #buttons {
+    width: 140px;
+  }
+  #info-container {
+    height: 140px;
+  }
 }
-@media(min-width: 1024px) { 
-    #buttons {
-        width: 160px;
-    } 
-    #info-container {
-        height: 160px;
-    }
+@media (min-width: 1024px) {
+  #buttons {
+    width: 160px;
+  }
+  #info-container {
+    height: 160px;
+  }
 }
-@media(min-width: 1200px) { 
-    #buttons {
-        width: 180px;
-    }
-    #info-container {
-        height: 180px;
-    }
+@media (min-width: 1200px) {
+  #buttons {
+    width: 180px;
+  }
+  #info-container {
+    height: 180px;
+  }
 }

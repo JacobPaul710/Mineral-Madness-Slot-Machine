@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Slot Machine Fun</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="board">
-        <div id="reel-container">
-            <div class="reel">
-                <div class="reel-value"></div>
-                <div class="reel-value"></div>
-                <div class="reel-value"></div>
-            </div>
-            <div class="reel">
-                <div class="reel-value"></div>
-                <div class="reel-value"></div>
-                <div class="reel-value"></div>
-            </div>
-            <div class="reel">
-                <div class="reel-value"></div>
-                <div class="reel-value"></div>
-                <div class="reel-value"></div>
-            </div>
+      <div id="reel-container">
+        <div class="reel">
+          <div class="reel-value"></div>
+          <div class="reel-value winning-reel"></div>
+          <div class="reel-value"></div>
         </div>
-        <div id="info-container">
-            <div class="info">
-                <input id="stake-amount" type="number" min="1" placeholder="Enter stake amount"> <button id="stake-input-button">Stake</button>
-                    <div>
-                        You are staking:
-                        <div id="staking-amount-output">$</div>
-                    </div>
-            </div>
-            <div class="info round-output">Round Output</div>
-            <div class="info">Balance: <span class="remaining-balance">$</span></div>
+        <div class="reel">
+          <div class="reel-value"></div>
+          <div class="reel-value winning-reel"></div>
+          <div class="reel-value"></div>
         </div>
+        <div class="reel">
+          <div class="reel-value"></div>
+          <div class="reel-value winning-reel"></div>
+          <div class="reel-value"></div>
+        </div>
+      </div>
+      <div id="info-container">
+        <div class="info">
+          <input
+            id="stake-amount"
+            type="number"
+            min="1"
+            placeholder="Enter stake amount"
+          />
+          <button id="stake-input-button">Stake</button>
+          <div>
+            You are staking:
+            <div id="staking-amount-output">0</div>
+          </div>
+        </div>
+
+        <div class="info">
+          Round output
+          <div class="round-output">0</div>
+        </div>
+        <div class="info">
+          Balance: <span class="remaining-balance">0</span>
+        </div>
+      </div>
     </div>
 
     <div id="buttons">
-        <button id="pay-slot">Pay Slot</button>
-        <button id="machine-arm"></button>
+      <button id="pay-slot">Pay Slot</button>
+      <button id="machine-arm"></button>
     </div>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
