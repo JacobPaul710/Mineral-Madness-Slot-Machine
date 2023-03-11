@@ -169,7 +169,7 @@ function generateStaticArm() {
 
 function generateReelGif() {
   for (let i = 0; i < reelVariables.length; i++) {
-    const reelGif = "./Project_1_sources/reelGif.gif" + "?x=" + Math.random();
+    const reelGif = "./Project_1_sources/reel-gif.gif" + "?x=" + Math.random();
     reelVariables[i].style.backgroundImage = `url(${reelGif})`;
   }
 }
