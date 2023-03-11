@@ -191,10 +191,9 @@ function isAWinner() {
       window.getComputedStyle(winningReel[2])["background-image"]
   ) {
     winner = true;
-    amountStaked * 10;
+    amountStaked *= 10;
     balance += amountStaked;
     remainingBalance.innerText = balance;
-    console.log(winner);
   } else {
     winner = false;
     balance -= amountStaked;

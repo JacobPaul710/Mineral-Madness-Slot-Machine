@@ -111,6 +111,11 @@ body {
   border: none;
 }
 
+#staking-amount-output {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 320px) {
   #buttons {
     width: 100px;
