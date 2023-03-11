@@ -15,7 +15,7 @@ const fireOpal = "./Project_1_sources/Slot_array_images/fireopal.png";
 const opal = "./Project_1_sources/Slot_array_images/oregon_opal.png";
 const petWood = "./Project_1_sources/Slot_array_images/petwood.png";
 
-const slotArray = [stromatolite, pictureJasper, mossAgate];
+const slotArray = [pictureJasper, mossAgate, stromatolite];
 
 // carnelian, riverAgate, oceanAgate, limbCast, fireOpal, opal, petWood]
 
