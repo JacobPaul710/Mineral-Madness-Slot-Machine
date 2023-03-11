@@ -11,7 +11,6 @@ body {
 }
 
 #board {
-  /* background-color: red; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -21,7 +20,6 @@ body {
 
 
 #buttons {
-  /* background-image: url('./Project_1_sources/falling\ money.gif'); */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,7 +28,6 @@ body {
 #reel-container {
   height: 100%;
   width: 100%;
-  /* background-color: goldenrod; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -43,8 +40,6 @@ body {
   height: 75%;
   border: 5px #ceb859 solid;
   border-radius: 12px;
-  /* background-color: green; */
-  /* border: 1px black solid; */
   display: flex;
   padding: 10px;
   flex-direction: column;
@@ -55,7 +50,6 @@ body {
 .reel-value {
   height: 50%;
   width: 50%;
-  /* border: 5px goldenrod solid; */
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -68,7 +62,6 @@ body {
 #info-container {
   display: flex;
   width: 100%;
-  /* background-color: green; */
   height: 200px;
   padding: 1%;
   display: flex;
@@ -118,7 +111,7 @@ body {
 #stake-amount {
   border: 9e2025 solid 2px;
   background-color: white;
-  color: #black;
+
 }
 
 #staking-amount-output {
