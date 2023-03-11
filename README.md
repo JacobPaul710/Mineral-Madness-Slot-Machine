@@ -1,4 +1,4 @@
-# Project_1_Slot_Machine
+# Mineral Madness
 
 A browser based slot machine game that allows the 'player' to wage various amounts of 'money' per turn, and receive and output of a winning or losing combination of variables each time the 'handle' is pulled. If a winning combination of variables is generated, the specifc combination of variables will determine the multiplier used to calculate the amount of 'money' output and added to the 'player's' balance.
 
@@ -34,6 +34,39 @@ A browser based slot machine game that allows the 'player' to wage various amoun
 
     If the 'Remaining balance' reaches 0 or below as a value, an 'alert' will be generated to inform the 'player' they are out of turns and will need to input more 'money' into the machine to continue playing.
 
-#### Slot Machine Wireframe
+### Slot Machine Wireframe
 
 ![Slot Machine Wireframe](https://i.imgur.com/fHkS7b4.png)
+
+### Technologies Used
+
+HTML
+JavaScript
+CSS
+
+
+### Getting Started
+
+https://jacobpaul710.github.io/Project_1_Slot_Machine/
+
+1. Click the 'Pay Slot' button in the top right corner of the page. This button can be re-accessed at any point in the game in order to add more funds to dwindling balance.
+2. Enter a numerical value into the prompt for your balance. 
+3. Enter a numerical value into the stake input, and then click the stake button. 
+4. Click the lever to pull it, and generate a round of the game. 
+5. A winning combination is 3 of any image in the middle row. This will result in the player winning 10x the amount staked. It will result in the Round Output display box, and update the remaining balance. 
+6. If a winning combination is not hit, the Round Output display box will read 0, and the amount staked will be deducted from the player's balance. 
+
+
+
+### Next Steps
+
+1. Stop the player from being able to continue to spin after a 0 balance has been reached. 
+2. Add additional winning rows (ex. diagonal, vertical). 
+3. Add additional variables to create new winning conditions with combination of variables.
+4. Apply different numerical multipliers to each varying combination. 
+5. Additional styling (ex. border, game name)
+6. Fix bug when a non-number is entered into pay-slot and stake-amount.
+
+###
+
+![Screenshot of gameplay](./Project_1_sources/Screenshot%20gameplay.png)
